@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap || Project-1</title>
+	<link rel="icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light py-3 bg-white shadow-sm fixed-top">
+		<div class="container">
+			<a href="#" class="navbar-brand fw-bold">Start Bootstarp</a>
+			<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navs">
+				<span class="text">Menu</span>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navs">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+					<li class="nav-item"><a href="#" class="nav-link ms-0 ms-lg-3">Download</a></li>
+					<li class="nav-item">
+						<button data-bs-toggle="modal" data-bs-target="#modal1" class="nav-link ma-0 ms-lg-3 btn btn-primary btn-1 d-inline-block mt-3 mt-lg-0 ms-0 ms-lg-4">
+							<i class="bi bi-chat-text-fill"></i>
+							Send Feadback
+						</button>
+						<div class="modal fade" id="modal1">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Send feadback</h5>
+										<button class="btn-close" data-bs-dismiss="modal"></button>
+									</div>
+									<div class="modal-body">
+										<form action="#">
+											<div class="mb-3">
+												<input type="text" class="form-control" placeholder="Enter your Name">
+											</div>
+											<div class="mb-3">
+												<input type="email" class="form-control" placeholder="Enter your Email Address">
+											</div>
+											<div class="mb-3">
+												<input type="number" class="form-control" placeholder="Enter your Phone Number">
+											</div>
+											<div class="mb-3">
+												<textarea name="massage" class="form-control" placeholder="Massage" rows="5"></textarea>
+											</div>
+											<a href="#" class="btn btn-primary form-control text-white">Submit</a>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- nav-end -->
+	<section class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<h1 class="tittle display-1 mb-4 text-center text-lg-start">Showcase your app beautifully.</h1>
+					<p class="pera lead mb-5 fw-normal text-center text-lg-start">Launch your mobile app landing page faster with this free. open surce theme from start Bootstarp!</p>
+					<div class="d-flex flex-column flex-lg-row align-items-center">
+						<a href="#" class="me-0 me-lg-3 mb-4 mb-lg-0">
+							<img src="assets/img/google-play-badge.svg" alt="Image is not Found!!" class="img-fluid img">
+						</a>
+						<a href="#">
+							<img src="assets/img/app-store-badge.svg" alt="Image is not Found!!" class="img-fluid img">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<img src="assets/img/hero.png" alt="Image is not Found!!" class="img-fluid mt-5 mt-lg-0 mobile">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- hero section End -->
+	<section class="sm-section">
+		<div class="container text-center">
+			<div class="row justify-content-center">
+				<div class="col-8">
+					<h2 class="fs-1">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h2>
+					<img src="assets/img/tnw-logo.svg" alt="Image is not Found!!" class="img-fluid mt-3">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- sm-section-end -->
+	<section class="features">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-8 order-lg-1">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-6 mb-5">
+								<div class="text-center">
+								    <i class="bi bi-phone"></i>
+								    <h3 class="mt-3">Device Mocksup</h3>
+								    <p class="text-muted">Ready to use HTML/CSS device mocksup, no Photoshop required!</p>
+								</div>
+							</div>
+							<div class="col-md-6 mb-5">
+								<div class="text-center">
+								    <i class="bi bi-camera"></i>
+								    <h3 class="mt-3">Flexible Use</h3>
+								    <p class="text-muted">Put an image, video, animation or anything else in the sreen!</p>
+				                </div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 mb-5">
+								<div class="text-center">
+									<i class="bi bi-gift"></i>
+									<h3 class="mt-3">Free to Use</h3>
+									<p class="text-muted">As always, this theme is free to downloded and use for any purpose!</p>
+								</div>
+							</div>
+							<div class="col-md-6 mb-5">
+								<div class="text-center">
+									<i class="bi bi-patch-check"></i>
+									<h3 class="mt-3">Open Source</h3>
+									<p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 order-lg-0">
+					<img src="assets/img/hero.png" alt="Photo is not Found!!" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- features-end -->
+	<section class="web-design bg-light">
+		<div class="container">
+			<div class="row align-items-center justify-content-center justify-content-lg-between">
+				<div class="col-lg-5 col-12">
+					<div>
+						<h2 class="display-3">Enter a new age of web design</h2>
+						<p class="lead text-muted fw-normal mt-4">This section is perfect for featuring some information about your application, why it was built problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
+					</div>
+				</div>
+				<div class="col-md-6 mt-5 mt-lg-0">
+					<img src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="Image is not Found!!" class="img-fluid rounded-circle">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- web-design-end -->
+	<section class="download">
+		<div class="content">
+			<div class="container">
+				<h2 class="display-1 ">Stop waiting.</h2>
+				<h2 class="display-1 mb-4">Start building.</h2>
+				<a href="#" class="btn btn-outline-light py-3 px-4">Download for free</a>
+			</div>
+		</div>
+	</section>
+	<!-- download-end -->
+	<section class="big-footer">
+		<div class="container">
+			<h2 class="mb-4">Get the app now!</h2>
+			<div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
+				<a href="#">
+					<img src="assets/img/google-play-badge.svg" alt="Icon is not Found!!" class="img-fluid">
+				</a>
+				<a href="#" class="ms-lg-3 ms-0 mt-3 mt-lg-0">
+					<img src="assets/img/app-store-badge.svg" alt="Icon is not Found!!" class="img-fluid">
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- big-footer-end -->
+	<footer>
+		<div class="container">
+			<div class="text-center">
+				<p>© Your Website 2023. All Rights Reserved.</p>
+				<a href="#">Privacy</a>
+				<span>.</span>
+				<a href="#">Trams</a>
+				<span>.</span>
+				<a href="#">FAQ</a>
+			</div>
+		</div>
+	</footer>
+	<!-- footer-end -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/min.js"></script>
+</body>
+</html>
